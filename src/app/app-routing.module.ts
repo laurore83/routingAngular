@@ -7,7 +7,7 @@ import { DirectiveComponent } from './components/directive/directive.component';
 
 const routes: Routes = [
   { path: '', component: AccueilComponent },
-  { path: 'apropos', component: AProposComponent },
+  { path: 'a-propos', component: AProposComponent },
   { path: 'directive', component: DirectiveComponent },
   { path: '**', component: PagenotfoundComponent },
 ];
